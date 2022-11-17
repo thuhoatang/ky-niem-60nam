@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ky-niem-60nam/static/css/main.be73f8f8.css",
-    "main.js": "/ky-niem-60nam/static/js/main.864eb873.js",
+    "main.js": "/ky-niem-60nam/static/js/main.8526efa2.js",
     "static/js/787.0f83ac9c.chunk.js": "/ky-niem-60nam/static/js/787.0f83ac9c.chunk.js",
     "static/media/videodemo.mp4": "/ky-niem-60nam/static/media/videodemo.097b6de84c4d087db9ca.mp4",
     "static/media/background.svg": "/ky-niem-60nam/static/media/background.b19fe31d2de620377826.svg",
@@ -35,11 +35,11 @@
     "static/media/logo-dhspkt.svg": "/ky-niem-60nam/static/media/logo-dhspkt.18a6c9e0824bbd374668cb9546817dc0.svg",
     "index.html": "/ky-niem-60nam/index.html",
     "main.be73f8f8.css.map": "/ky-niem-60nam/static/css/main.be73f8f8.css.map",
-    "main.864eb873.js.map": "/ky-niem-60nam/static/js/main.864eb873.js.map",
+    "main.8526efa2.js.map": "/ky-niem-60nam/static/js/main.8526efa2.js.map",
     "787.0f83ac9c.chunk.js.map": "/ky-niem-60nam/static/js/787.0f83ac9c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.be73f8f8.css",
-    "static/js/main.864eb873.js"
+    "static/js/main.8526efa2.js"
   ]
 }
