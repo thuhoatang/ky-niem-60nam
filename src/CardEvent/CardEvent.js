@@ -21,7 +21,7 @@ const CardEvent = ({ srcImg, numberCard, titleText }) => {
         className="card"
         onMouseOver={handleMouseOver}
         onMouseOut={handleMouseOut}
-        onClick={() => navigate("/lich-su-hinh-thanh")}
+        onClick={() => navigate("ky-niem-60nam/lich-su-hinh-thanh")}
       >
         <div className="title-card">
           <div className="header-title">
