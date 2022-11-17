@@ -10,18 +10,17 @@ import Home from "./page/Home";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "ky-niem-60nam/",
     element: <Home selected="home" />,
   },
   {
-    path: "/lich-su-hinh-thanh",
+    path: "ky-niem-60nam/lich-su-hinh-thanh",
     element: <Timeline selected="history" />,
   },
 ]);
 root.render(
   <React.StrictMode>
     <RouterProvider router={router} />
-    {/* <App /> */}
   </React.StrictMode>
 );
 
