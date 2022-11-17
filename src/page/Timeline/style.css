@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+.time-line {
+  font-family: 'Comfortaa', cursive;
+  width: 100%;
+  box-sizing: border-box;
+  background: url(./images/background.svg)
+}
+
+@keyframes example {
+  0% {
+    transform: rotate(-43deg);
+    left: 0px;
+    top: 300px;
+  }
+
+  25% {
+    transform: rotate(-30deg);
+
+    left: 20px;
+    top: 200px;
+  }
+
+  50% {
+    transform: rotate(-23deg);
+
+    left: 50px;
+    top: 100px;
+  }
+
+  75% {
+    transform: rotate(-16deg);
+
+    left: 75px;
+    top: 10px;
+  }
+
+  100% {
+    transform: rotate(0deg);
+    left: 100px;
+    top: 0px;
+  }
+}
+
+.chicken {
+  transform: rotate(-43deg);
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  transform: rotate(0deg);
+  left: 100px;
+  top: 0px;
+}
+
+.su_menh {
+  display: flex;
+  align-items: center;
+}
+
+.content_timeline p {
+  font-size: 20px;
+  margin: 40px 0px;
+}
+
+.bg-01 {
+  position: absolute;
+  z-index: 9;
+  left: 60%;
+  top: 800px;
+}
+
+.bg-02 {
+  position: absolute;
+  z-index: 9;
+  right: -10%;
+  top: 1750px;
+}

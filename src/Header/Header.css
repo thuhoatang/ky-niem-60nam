@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+.header {
+    font-family: 'Comfortaa', cursive;
+    margin: 5px auto;
+    height: 500px;
+    width: 99%;
+    clip-path: polygon(0 0, 100% 0, 100% 60%, 0 100%);
+    /* background: rgb(240, 96, 96); */
+    background: #2E3C63;
+    color: #ffff;
+    border-radius: 5px;
+    box-shadow: rgba(32, 184, 249, 0.35) 0px 5px 15px;
+}
+
+.logo-menu {
+    margin: 0px 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    position: relative;
+    top: 50px;
+    cursor: pointer;
+}
+
+.logoUTE img {
+    height: 70px;
+    width: 70px;
+}
+
+.header .menu {
+    display: flex;
+}
+
+.logo-menu .menu p {
+    margin: 0px 35px;
+}
+
+.title-60namthanhlap {
+    position: relative;
+    top: 80px;
+    margin: 0px 50px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-60namthanhlap .title {
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.title-60namthanhlap .content-text {
+    letter-spacing: 1px;
+    line-height: 30px
+}
+
+.content-60namthanhlap {
+    width: 50%
+}
+
+.slide-img-header {
+    position: absolute;
+    left: 65%;
+    top: 150px;
+}
+
+.card-thoigianhinhthanh {
+    position: absolute;
+    left: 10%;
+    top: 430px;
+    width: 300px;
+    height: auto;
+    background: #FFF4F1;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.img-logo-calender img {
+    width: 45%;
+    margin-left: 100px
+}
+
+.selected {
+    color: orangered
+}

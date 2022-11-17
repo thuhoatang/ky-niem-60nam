@@ -1,0 +1,63 @@
+.card {
+    width: 35%;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.header-title {
+    display: flex;
+    align-items: center
+}
+
+.card .header-title p {
+    font-size: 90px;
+    font-weight: bold;
+    text-shadow: rgb(62, 45, 95, 0.5) .04em .04em 0;
+}
+
+.text-title-card {
+    font-size: 25px;
+    font-weight: bold;
+    color: #666666;
+
+}
+
+.horizontal-bar {
+    width: 100px;
+    height: 10px;
+    background: orangered;
+    margin: 0px 40px;
+}
+
+.img-card {
+    width: 70%;
+    height: 450px;
+    margin-top: 10px;
+}
+
+.img-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.04);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.card:hover .img-card img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.btn-redirect {
+    position: relative;
+    width: 100px;
+    top: -35%;
+    left: 60%;
+    cursor: pointer;
+}

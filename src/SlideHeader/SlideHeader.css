@@ -1,0 +1,14 @@
+.img-slide {
+    width: 350px;
+    height: 500px;
+    border-radius: 5px;
+
+}
+
+.img-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 5px solid white;
+}
