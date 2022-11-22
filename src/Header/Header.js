@@ -13,18 +13,18 @@ const Header = ({ title, selected }) => {
         {/* logo menu */}
         <div className="logo-menu">
           <div className="logoUTE">
-            <img src={logoUTE} onClick={() => navigate("ky-niem-60nam")} />
+            <img src={logoUTE} onClick={() => navigate("/ky-niem-60nam")} />
           </div>
           <div className="menu">
             <p
               className={selected == "home" ? `selected` : ""}
-              onClick={() => navigate("ky-niem-60nam")}
+              onClick={() => navigate("/ky-niem-60nam")}
             >
               <b className="">Giới thiệu</b>
             </p>
             <p
               className={selected == "history" ? `selected` : ""}
-              onClick={() => navigate("ky-niem-60nam/lich-su-hinh-thanh")}
+              onClick={() => navigate("/ky-niem-60nam/lich-su-hinh-thanh")}
             >
               <b>Lịch sử</b>
             </p>
